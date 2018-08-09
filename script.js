@@ -26,10 +26,10 @@ class Stopwatch {
     if (!this.running) {
         this.running = true;
         this.watch = setInterval(() => this.step(), 10);
-    }
+    }}
 
     step() {
-        if (!this.running) return;
+        if (!this.running) return
         this.calculate();
         this.print();
     }
